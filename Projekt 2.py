@@ -18,25 +18,25 @@ Usage instructions:
 
 import string
 
-lenght_too_short= False
+lenght_too_short = False
 contains_space = False
-no_special_char= False
-no_lower_char= False
-no_upper_char= False
+no_special_char = False
+no_lower_char = False
+no_upper_char = False
 
-password= input("Podaj hasło: ")
-special_char= string.punctuation 
+password = input("Podaj hasło: ")
+special_char = string.punctuation 
 
 if len(password) < 8:
     lenght_too_short = True
 if any(char.isspace() for char in password):
     contains_space = True
 if not any(char in special_char for char in password):
-    no_special_char= True
+    no_special_char = True
 if not any(char.islower() for char in password):
-    no_lower_char= True
+    no_lower_char = True
 if not any(char.isupper()for char in password):
-    no_upper_char= True
+    no_upper_char = True
 
 
 if any([lenght_too_short, contains_space, no_special_char, no_lower_char, no_upper_char]) == True:

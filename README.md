@@ -1,6 +1,18 @@
 # Password Security Audit and Recommendation Report Generator
 
-## Description
+## Table of contents
+* [General info](#general-info)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Prerequisites](#prerequisites)
+* [Setup](#setup)
+* [Testing for Development](#testing-for-evelopment)
+* [Solutions](#solutions)
+* [Tools and Plugins](#tools-and-plugins)
+* [Future Plans](#future-plans)
+* [Inspirations and Acknowledgments](#inspirations-and-acknowledgments)
+
+## General info
 This program is a password security audit tool designed for clients of 'Niebezpiecznik', a leading cybersecurity company in Poland. It allows users to check the security of their passwords by verifying if they meet specific complexity requirements. If a password fails to meet the requirements, the program generates a recommendation report to help users improve their password security.
 
 ## Features
@@ -21,7 +33,7 @@ This program is a password security audit tool designed for clients of 'Niebezpi
 
 To run this project, make sure you have Python 3.11.2 installed on your computer.
 
-## Installation
+## Setup
 
 To run the project locally, follow these steps:
 
@@ -31,6 +43,18 @@ To run the project locally, follow these steps:
 ```
 python3 password_security_audit.py
 ```
+
+## Testing for Development
+
+To ensure the correctness of the password_security_audit.py module, we have created a test suite in test_password_security_audit.py using pytest. The test cases cover different scenarios to verify the is_password_secure() function.
+
+You can run the tests using pytest by running the following command in the terminal:
+```
+pytest test_password_security_audit.py
+```
+
+These tests will help ensure that the is_password_secure() function works correctly and that the password security audit program behaves as expected in different scenarios. If any of the tests fail, it will help identify the issues that need to be addressed in the code.
+
 ## Solutions
 During the development of this project, several challenges were addressed and solutions were implemented:
 
@@ -55,6 +79,11 @@ if any([lenght_too_short, contains_space, no_special_char, no_lower_char, no_upp
 else:
     print("Your password is secure.")
 ```
+
+## Tools and Plugins
+
+The program uses the standard Python library and does not require any additional tools or plugins.
+
 ## Future Plans
 
 - Implement password strength evaluation using popular password cracking algorithms and heuristics.

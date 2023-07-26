@@ -8,7 +8,6 @@
 * [Setup](#setup)
 * [Testing for Development](#testing-for-evelopment)
 * [Solutions](#solutions)
-* [Tools and Plugins](#tools-and-plugins)
 * [Future Plans](#future-plans)
 * [Inspirations and Acknowledgments](#inspirations-and-acknowledgments)
 
@@ -64,7 +63,6 @@ pip3 install pytest
 pytest test_password_security_audit.py
 ```
 
-
 ## Solutions
 During the development of this project, several challenges were addressed and solutions were implemented:
 
@@ -89,10 +87,6 @@ if any([lenght_too_short, contains_space, no_special_char, no_lower_char, no_upp
 else:
     print("Your password is secure.")
 ```
-
-## Tools and Plugins
-
-The program uses the standard Python library and does not require any additional tools or plugins.
 
 ## Future Plans
 

@@ -43,7 +43,7 @@ To run the project locally, follow these steps:
 python3 password_security_audit.py
 ```
 
-## Testing for Development
+## Testing
 
 To ensure the correctness of the password_security_audit.py module, we have created a test suite in test_password_security_audit.py using pytest. The test cases cover different scenarios to verify the is_password_secure() function.
 

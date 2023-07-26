@@ -48,12 +48,22 @@ python3 password_security_audit.py
 
 To ensure the correctness of the password_security_audit.py module, we have created a test suite in test_password_security_audit.py using pytest. The test cases cover different scenarios to verify the is_password_secure() function.
 
-You can run the tests using pytest by running the following command in the terminal:
+These tests will help ensure that the is_password_secure() function works correctly and that the password security audit program behaves as expected in different scenarios. If any of the tests fail, it will help identify the issues that need to be addressed in the code.
+
+### Running Tests
+To run the tests, follow these steps:
+
+1. Install pytest if you haven't already, by:
+``` 
+pip3 install pytest
+```
+2. Navigate to the project directory.
+
+3. Run the tests by running the following command in the terminal:
 ```
 pytest test_password_security_audit.py
 ```
 
-These tests will help ensure that the is_password_secure() function works correctly and that the password security audit program behaves as expected in different scenarios. If any of the tests fail, it will help identify the issues that need to be addressed in the code.
 
 ## Solutions
 During the development of this project, several challenges were addressed and solutions were implemented:

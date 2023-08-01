@@ -6,7 +6,7 @@
 * [Technologies Used](#technologies-used)
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
-* [Testing for Development](#testing-for-evelopment)
+* [Testing](#testing)
 * [Solutions](#solutions)
 * [Future Plans](#future-plans)
 * [Inspirations and Acknowledgments](#inspirations-and-acknowledgments)
@@ -33,7 +33,6 @@ This program is a password security audit tool designed for clients of 'Niebezpi
 To run this project, make sure you have Python 3.11.2 installed on your computer.
 
 ## Setup
-
 To run the project locally, follow these steps:
 
 - Clone this repository to your local machine.
@@ -44,7 +43,6 @@ python3 password_security_audit.py
 ```
 
 ## Testing
-
 To ensure the correctness of the password_security_audit.py module, we have created a test suite in test_password_security_audit.py using pytest. The test cases cover different scenarios to verify the is_password_secure() function.
 
 These tests will help ensure that the is_password_secure() function works correctly and that the password security audit program behaves as expected in different scenarios. If any of the tests fail, it will help identify the issues that need to be addressed in the code.
@@ -89,10 +87,8 @@ else:
 ```
 
 ## Future Plans
-
 - Implement password strength evaluation using popular password cracking algorithms and heuristics.
 - Add the option to save and manage passwords securely.
 
 ## Inspirations and Acknowledgments
-
 This project was inspired by the "Praktyczny Python" training course and was adapted from the original version for educational purposes.
